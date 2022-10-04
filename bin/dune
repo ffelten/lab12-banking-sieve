@@ -1,0 +1,6 @@
+(executables
+ (public_names banking)
+ (names banking)
+ (libraries threads domainslib)
+ (flags (:standard -I +threads))
+ )
